@@ -7,8 +7,8 @@
 //
 
 #import "RootViewController.h"
-#import "Project1StringFunctions.h"
-#import "Project2StringValues.h"
+#import <Project2/Project2StringValues.h>
+#import <Project1/Project1StringFunctions.h>
 
 @interface RootViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *label;

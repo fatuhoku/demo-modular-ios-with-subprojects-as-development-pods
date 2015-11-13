@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "Project2StringValues.h"
+#import <Project2/Project2StringValues.h>
 
 @interface Project2Tests : XCTestCase
 
