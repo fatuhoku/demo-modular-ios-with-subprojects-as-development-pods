@@ -57,8 +57,6 @@
 		7F594A9E1BF4D21500D724F0 /* Project1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F594AA21BF4D21500D724F0 /* Project1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project1Tests.m; sourceTree = "<group>"; };
 		7F594AA41BF4D21500D724F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F594B261BF4D73C00D724F0 /* Project1StringFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project1StringFunctions.h; sourceTree = "<group>"; };
-		7F594B271BF4D73C00D724F0 /* Project1StringFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project1StringFunctions.m; sourceTree = "<group>"; };
 		9F8DB3BC728C316144881EAA /* Pods-Project1Framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project1Framework.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project1Framework/Pods-Project1Framework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,8 +128,6 @@
 				7F594A961BF4D21500D724F0 /* LaunchScreen.storyboard */,
 				7F594A991BF4D21500D724F0 /* Info.plist */,
 				7F594A881BF4D21500D724F0 /* Supporting Files */,
-				7F594B261BF4D73C00D724F0 /* Project1StringFunctions.h */,
-				7F594B271BF4D73C00D724F0 /* Project1StringFunctions.m */,
 			);
 			path = Project1;
 			sourceTree = "<group>";
