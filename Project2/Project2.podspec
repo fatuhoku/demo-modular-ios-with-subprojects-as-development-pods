@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.platform         = :ios, '8.0'
 
-  s.source_files = '*.{h,m,swift}'
+  s.source_files = 'Classes/**/*.{h,m,swift}'
   s.resources = ['*.{png,xib,storyboard}']
 
   s.ios.xcconfig = {'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) MODULENAME=1'};
