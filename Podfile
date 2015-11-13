@@ -1,6 +1,6 @@
 workspace 'Root.xcworkspace'
 
-# TODO Use frameworks.
+use_frameworks!
 
 # xcodeproj defined here to avoid 'Could not automatically select an Xcode project' error.
 # See https://github.com/CocoaPods/CocoaPods/issues/738#issuecomment-49497948
