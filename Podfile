@@ -24,8 +24,7 @@ target :RootProject, :exclusive => true do
     project2
 end
 
-# # In order for unit tests to get third party dependencies as well, let the 's important to
-# target :Project2, :exclusive => true do
-#     xcodeproj 'Project2/Project2.xcodeproj'
-#     project2
-# end
+target :Project2TestApp, :exclusive => true do
+    xcodeproj 'Project2/Project2.xcodeproj'
+    pod 'BOString'
+end
