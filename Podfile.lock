@@ -6,7 +6,6 @@ PODS:
     - BOString
 
 DEPENDENCIES:
-  - BOString
   - Project1 (from `./Project1`)
   - Project2 (from `./Project2`)
 
