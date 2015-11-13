@@ -1,5 +1,5 @@
 //
-//  StringFunctions.h
+//  Project1StringFunctions.h
 //  Project1
 //
 //  Created by Hok Shun Poon on 12/11/2015.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface StringFunctions : NSObject
+@interface Project1StringFunctions : NSObject
 + (NSString *)stringByCapitalizingString:(NSString *)string;
 @end

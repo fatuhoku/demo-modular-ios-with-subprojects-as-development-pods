@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56F3F758A49777E23C350DC9 /* StringFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3FC953E35809DC342C124 /* StringFunctions.m */; };
+		56F3F758A49777E23C350DC9 /* Project1StringFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3FC953E35809DC342C124 /* Project1StringFunctions.m */; };
 		7F594A8A1BF4D21500D724F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594A891BF4D21500D724F0 /* main.m */; };
 		7F594A8D1BF4D21500D724F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594A8C1BF4D21500D724F0 /* AppDelegate.m */; };
 		7F594A901BF4D21500D724F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594A8F1BF4D21500D724F0 /* ViewController.m */; };
@@ -42,8 +42,8 @@
 
 /* Begin PBXFileReference section */
 		0B9B4E7269F06BDF08728FEB /* Pods-Project1Framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project1Framework.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Project1Framework/Pods-Project1Framework.debug.xcconfig"; sourceTree = "<group>"; };
-		56F3F563EF966E289CAC11D0 /* StringFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringFunctions.h; sourceTree = "<group>"; };
-		56F3FC953E35809DC342C124 /* StringFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringFunctions.m; sourceTree = "<group>"; };
+		56F3F563EF966E289CAC11D0 /* Project1StringFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project1StringFunctions.h; sourceTree = "<group>"; };
+		56F3FC953E35809DC342C124 /* Project1StringFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project1StringFunctions.m; sourceTree = "<group>"; };
 		7F594A851BF4D21500D724F0 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F594A891BF4D21500D724F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F594A8B1BF4D21500D724F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,8 +57,8 @@
 		7F594A9E1BF4D21500D724F0 /* Project1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F594AA21BF4D21500D724F0 /* Project1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project1Tests.m; sourceTree = "<group>"; };
 		7F594AA41BF4D21500D724F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F594B261BF4D73C00D724F0 /* StringFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringFunctions.h; sourceTree = "<group>"; };
-		7F594B271BF4D73C00D724F0 /* StringFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringFunctions.m; sourceTree = "<group>"; };
+		7F594B261BF4D73C00D724F0 /* Project1StringFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project1StringFunctions.h; sourceTree = "<group>"; };
+		7F594B271BF4D73C00D724F0 /* Project1StringFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project1StringFunctions.m; sourceTree = "<group>"; };
 		9F8DB3BC728C316144881EAA /* Pods-Project1Framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project1Framework.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project1Framework/Pods-Project1Framework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,8 +83,8 @@
 		56F3F610305F5A4D7E8ABE81 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				56F3FC953E35809DC342C124 /* StringFunctions.m */,
-				56F3F563EF966E289CAC11D0 /* StringFunctions.h */,
+				56F3FC953E35809DC342C124 /* Project1StringFunctions.m */,
+				56F3F563EF966E289CAC11D0 /* Project1StringFunctions.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -130,8 +130,8 @@
 				7F594A961BF4D21500D724F0 /* LaunchScreen.storyboard */,
 				7F594A991BF4D21500D724F0 /* Info.plist */,
 				7F594A881BF4D21500D724F0 /* Supporting Files */,
-				7F594B261BF4D73C00D724F0 /* StringFunctions.h */,
-				7F594B271BF4D73C00D724F0 /* StringFunctions.m */,
+				7F594B261BF4D73C00D724F0 /* Project1StringFunctions.h */,
+				7F594B271BF4D73C00D724F0 /* Project1StringFunctions.m */,
 			);
 			path = Project1;
 			sourceTree = "<group>";
@@ -257,7 +257,7 @@
 				7F594A901BF4D21500D724F0 /* ViewController.m in Sources */,
 				7F594A8D1BF4D21500D724F0 /* AppDelegate.m in Sources */,
 				7F594A8A1BF4D21500D724F0 /* main.m in Sources */,
-				56F3F758A49777E23C350DC9 /* StringFunctions.m in Sources */,
+				56F3F758A49777E23C350DC9 /* Project1StringFunctions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
