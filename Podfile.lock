@@ -1,0 +1,23 @@
+PODS:
+  - BOString (0.0.9)
+  - Project1 (0.1.0):
+    - BOString
+  - Project2 (0.1.0):
+    - BOString
+
+DEPENDENCIES:
+  - Project1 (from `./Project1`)
+  - Project2 (from `./Project2`)
+
+EXTERNAL SOURCES:
+  Project1:
+    :path: ./Project1
+  Project2:
+    :path: ./Project2
+
+SPEC CHECKSUMS:
+  BOString: c896f83b514996bbe874c0a3afd61f4c6764e0ed
+  Project1: 0128f0b999a56ae6fd98fde6b92e7c666b41c484
+  Project2: 508f60fa0b91f99677acf60d8d4158d88ba3e6f8
+
+COCOAPODS: 0.39.0
