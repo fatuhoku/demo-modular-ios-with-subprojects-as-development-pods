@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56F3F043DBD3A8038218A1DB /* Project2StringValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F1D5C7C4022ABB3FBDBA /* Project2StringValues.m */; };
+		7E1A462B0DDA8FEE4D379D9B /* libPods-Project2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F5EECEA4BD7A1CB6BD72EB /* libPods-Project2.a */; };
 		7F594ABB1BF4D21E00D724F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594ABA1BF4D21E00D724F0 /* main.m */; };
 		7F594ABE1BF4D21E00D724F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594ABD1BF4D21E00D724F0 /* AppDelegate.m */; };
 		7F594AC11BF4D21E00D724F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594AC01BF4D21E00D724F0 /* ViewController.m */; };
@@ -41,6 +42,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		003978FF3226CD72235C9BD1 /* Pods-Project2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2Tests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2Tests/Pods-Project2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4A135BA67B8A3B4846AB7896 /* Pods-Project2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2/Pods-Project2.debug.xcconfig"; sourceTree = "<group>"; };
+		4D612EE105A4CF738A6CFCC5 /* Pods-Project2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2/Pods-Project2.release.xcconfig"; sourceTree = "<group>"; };
+		56E6E50379494B062395977D /* Pods-Project2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2Tests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2Tests/Pods-Project2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		56F3F1D5C7C4022ABB3FBDBA /* Project2StringValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project2StringValues.m; sourceTree = "<group>"; };
 		56F3F5A0B849A72AF0F91767 /* Project2StringValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project2StringValues.h; sourceTree = "<group>"; };
 		7F594AB61BF4D21E00D724F0 /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +61,8 @@
 		7F594ACF1BF4D21E00D724F0 /* Project2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F594AD31BF4D21E00D724F0 /* Project2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project2Tests.m; sourceTree = "<group>"; };
 		7F594AD51BF4D21E00D724F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEC425B29744ACD9E88BFC3 /* libPods-Project2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F5EECEA4BD7A1CB6BD72EB /* libPods-Project2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1A462B0DDA8FEE4D379D9B /* libPods-Project2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D7F2A28B225E5564358D6F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56E6E50379494B062395977D /* Pods-Project2Tests.debug.xcconfig */,
+				003978FF3226CD72235C9BD1 /* Pods-Project2Tests.release.xcconfig */,
+				4A135BA67B8A3B4846AB7896 /* Pods-Project2.debug.xcconfig */,
+				4D612EE105A4CF738A6CFCC5 /* Pods-Project2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		56F3F933AD83739A0CAC0FF1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +111,8 @@
 				7F594AD21BF4D21E00D724F0 /* Project2Tests */,
 				7F594AB71BF4D21E00D724F0 /* Products */,
 				56F3F933AD83739A0CAC0FF1 /* Classes */,
+				2D7F2A28B225E5564358D6F5 /* Pods */,
+				DD28B9328D2196AD2832D2B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +158,15 @@
 			path = Project2Tests;
 			sourceTree = "<group>";
 		};
+		DD28B9328D2196AD2832D2B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCEC425B29744ACD9E88BFC3 /* libPods-Project2Tests.a */,
+				C5F5EECEA4BD7A1CB6BD72EB /* libPods-Project2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,10 +174,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F594AD81BF4D21E00D724F0 /* Build configuration list for PBXNativeTarget "Project2" */;
 			buildPhases = (
+				C80469B297A3315F3EE4B9AE /* Check Pods Manifest.lock */,
 				7F594AB21BF4D21E00D724F0 /* Sources */,
 				7F594AB31BF4D21E00D724F0 /* Frameworks */,
 				7F594AB41BF4D21E00D724F0 /* Resources */,
 				7F594B201BF4D4A400D724F0 /* Embed Frameworks */,
+				D8874BE0AE462D9AFD2F75F4 /* Embed Pods Frameworks */,
+				98C293C34C4299E15511D23F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +265,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98C293C34C4299E15511D23F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Project2/Pods-Project2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C80469B297A3315F3EE4B9AE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8874BE0AE462D9AFD2F75F4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Project2/Pods-Project2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F594AB21BF4D21E00D724F0 /* Sources */ = {
@@ -367,6 +448,7 @@
 		};
 		7F594AD91BF4D21E00D724F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A135BA67B8A3B4846AB7896 /* Pods-Project2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Project2/Info.plist;
@@ -378,6 +460,7 @@
 		};
 		7F594ADA1BF4D21E00D724F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D612EE105A4CF738A6CFCC5 /* Pods-Project2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Project2/Info.plist;
