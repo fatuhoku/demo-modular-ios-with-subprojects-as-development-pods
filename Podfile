@@ -6,6 +6,6 @@ xcodeproj 'RootProject/RootProject.xcodeproj'
 
 target :RootProject, :exclusive => true do
     xcodeproj 'RootProject/RootProject.xcodeproj'
-    pod ‘Project1’, :path => ‘./Project1’
-    pod ‘Project2’, :path => ‘./Project2’
+    pod 'Project1', :path => './Project1'
+    pod 'Project2', :path => './Project2'
 end
