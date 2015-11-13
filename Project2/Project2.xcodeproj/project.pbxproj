@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56F3F043DBD3A8038218A1DB /* Project2StringValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F1D5C7C4022ABB3FBDBA /* Project2StringValues.m */; };
 		7F594ABB1BF4D21E00D724F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594ABA1BF4D21E00D724F0 /* main.m */; };
 		7F594ABE1BF4D21E00D724F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594ABD1BF4D21E00D724F0 /* AppDelegate.m */; };
 		7F594AC11BF4D21E00D724F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594AC01BF4D21E00D724F0 /* ViewController.m */; };
@@ -41,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		1F4EB4D7C9792E7398F70ACF /* Pods-Project2Framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2Framework.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2Framework/Pods-Project2Framework.release.xcconfig"; sourceTree = "<group>"; };
+		56F3F1D5C7C4022ABB3FBDBA /* Project2StringValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project2StringValues.m; sourceTree = "<group>"; };
+		56F3F5A0B849A72AF0F91767 /* Project2StringValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project2StringValues.h; sourceTree = "<group>"; };
 		7F594AB61BF4D21E00D724F0 /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F594ABA1BF4D21E00D724F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F594ABC1BF4D21E00D724F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 		56F3F933AD83739A0CAC0FF1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				56F3F1D5C7C4022ABB3FBDBA /* Project2StringValues.m */,
+				56F3F5A0B849A72AF0F91767 /* Project2StringValues.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				7F594AC11BF4D21E00D724F0 /* ViewController.m in Sources */,
 				7F594ABE1BF4D21E00D724F0 /* AppDelegate.m in Sources */,
 				7F594ABB1BF4D21E00D724F0 /* main.m in Sources */,
+				56F3F043DBD3A8038218A1DB /* Project2StringValues.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
