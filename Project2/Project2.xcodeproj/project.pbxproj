@@ -41,7 +41,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F4EB4D7C9792E7398F70ACF /* Pods-Project2Framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2Framework.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2Framework/Pods-Project2Framework.release.xcconfig"; sourceTree = "<group>"; };
 		56F3F1D5C7C4022ABB3FBDBA /* Project2StringValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project2StringValues.m; sourceTree = "<group>"; };
 		56F3F5A0B849A72AF0F91767 /* Project2StringValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project2StringValues.h; sourceTree = "<group>"; };
 		7F594AB61BF4D21E00D724F0 /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,9 +56,6 @@
 		7F594ACF1BF4D21E00D724F0 /* Project2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F594AD31BF4D21E00D724F0 /* Project2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project2Tests.m; sourceTree = "<group>"; };
 		7F594AD51BF4D21E00D724F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BF6D63E817156D825A21449 /* Pods-Project2Framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2Framework.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2Framework/Pods-Project2Framework.debug.xcconfig"; sourceTree = "<group>"; };
-		DF74800177FB0D71EE837A01 /* Pods-Project2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2/Pods-Project2.release.xcconfig"; sourceTree = "<group>"; };
-		F331983D160ABC7461FAF1E3 /* Pods-Project2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2/Pods-Project2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +91,6 @@
 				7F594AB81BF4D21E00D724F0 /* Project2 */,
 				7F594AD21BF4D21E00D724F0 /* Project2Tests */,
 				7F594AB71BF4D21E00D724F0 /* Products */,
-				CA88E3F1F13635E3C8B0E3A3 /* Pods */,
 				56F3F933AD83739A0CAC0FF1 /* Classes */,
 			);
 			sourceTree = "<group>";
@@ -140,17 +135,6 @@
 				7F594AD51BF4D21E00D724F0 /* Info.plist */,
 			);
 			path = Project2Tests;
-			sourceTree = "<group>";
-		};
-		CA88E3F1F13635E3C8B0E3A3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F331983D160ABC7461FAF1E3 /* Pods-Project2.debug.xcconfig */,
-				DF74800177FB0D71EE837A01 /* Pods-Project2.release.xcconfig */,
-				8BF6D63E817156D825A21449 /* Pods-Project2Framework.debug.xcconfig */,
-				1F4EB4D7C9792E7398F70ACF /* Pods-Project2Framework.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

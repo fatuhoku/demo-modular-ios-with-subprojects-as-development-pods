@@ -7,13 +7,12 @@
 //
 
 #import "Project2StringValues.h"
-#import "Constants.h"
 #import <BOString/BOString.h>
 
 @implementation Project2StringValues
 
 + (NSAttributedString *)helloWorldValue {
-    return [Project2StringConstant bos_makeString:^(BOStringMaker *make) {
+    return [@"Hello world" bos_makeString:^(BOStringMaker *make) {
         make.foregroundColor([UIColor greenColor]);
         make.font([UIFont systemFontOfSize:20]);
         
