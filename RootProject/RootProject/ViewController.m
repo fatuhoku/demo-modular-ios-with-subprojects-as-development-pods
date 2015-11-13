@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *string = [StringValues helloWorldValue].string;
-    NSLog(@"Root project is displaying: '%@'", [StringFunctions stringByCapitalizingString:string]);
+    NSString *string = [Project2StringValues helloWorldValue].string;
+    NSLog(@"Root project is displaying: '%@'", [Project1StringFunctions stringByCapitalizingString:string]);
     
     self.label.attributedText = [StringValues helloWorldValue];
 }

@@ -77,6 +77,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56F3F933AD83739A0CAC0FF1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7F594AAD1BF4D21E00D724F0 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +91,7 @@
 				7F594AD21BF4D21E00D724F0 /* Project2Tests */,
 				7F594AB71BF4D21E00D724F0 /* Products */,
 				CA88E3F1F13635E3C8B0E3A3 /* Pods */,
+				56F3F933AD83739A0CAC0FF1 /* Classes */,
 			);
 			sourceTree = "<group>";
 		};
