@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface GroundTruths : NSObject
-
++ (NSInteger)answerToLifeTheUniverseAndEverything;
 @end

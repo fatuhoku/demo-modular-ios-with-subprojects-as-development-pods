@@ -10,4 +10,8 @@
 
 @implementation GroundTruths
 
++ (NSInteger)answerToLifeTheUniverseAndEverything {
+    return 42;
+}
+
 @end
