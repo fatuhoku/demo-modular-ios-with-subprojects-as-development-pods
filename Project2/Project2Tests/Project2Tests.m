@@ -2,12 +2,11 @@
 //  Project2Tests.m
 //  Project2Tests
 //
-//  Created by Hok Shun Poon on 12/11/2015.
+//  Created by Hok Shun Poon on 13/11/2015.
 //  Copyright © 2015 Hok Shun Poon. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "Project2StringValues.h"
 
 @interface Project2Tests : XCTestCase
 
@@ -25,8 +24,16 @@
     [super tearDown];
 }
 
-- (void)testHelloWorldValue {
-    XCTAssertEqualObjects([Project2StringValues helloWorldValue].string, @"Hello World");
+- (void)testExample {
+    // This is an example of a functional test case.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
+}
+
+- (void)testPerformanceExample {
+    // This is an example of a performance test case.
+    [self measureBlock:^{
+        // Put the code you want to measure the time of here.
+    }];
 }
 
 @end

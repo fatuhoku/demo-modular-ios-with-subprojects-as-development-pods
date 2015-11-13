@@ -24,8 +24,8 @@ target :RootProject, :exclusive => true do
     project2
 end
 
-# Unit tests test the sources included in the test app target, so add the dependencies there.
-target :Project2, :exclusive => true do
-    xcodeproj 'Project2/Project2.xcodeproj'
-    project2
-end
+# # In order for unit tests to get third party dependencies as well, let the 's important to
+# target :Project2, :exclusive => true do
+#     xcodeproj 'Project2/Project2.xcodeproj'
+#     project2
+# end

@@ -7,39 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56F3F043DBD3A8038218A1DB /* Project2StringValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F1D5C7C4022ABB3FBDBA /* Project2StringValues.m */; };
-		7E1A462B0DDA8FEE4D379D9B /* libPods-Project2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F5EECEA4BD7A1CB6BD72EB /* libPods-Project2.a */; };
-		7F594ABB1BF4D21E00D724F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594ABA1BF4D21E00D724F0 /* main.m */; };
-		7F594ABE1BF4D21E00D724F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594ABD1BF4D21E00D724F0 /* AppDelegate.m */; };
-		7F594AC11BF4D21E00D724F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594AC01BF4D21E00D724F0 /* ViewController.m */; };
-		7F594AC41BF4D21E00D724F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F594AC21BF4D21E00D724F0 /* Main.storyboard */; };
-		7F594AC61BF4D21E00D724F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F594AC51BF4D21E00D724F0 /* Assets.xcassets */; };
-		7F594AC91BF4D21E00D724F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F594AC71BF4D21E00D724F0 /* LaunchScreen.storyboard */; };
-		7F594AD41BF4D21E00D724F0 /* Project2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594AD31BF4D21E00D724F0 /* Project2Tests.m */; };
+		56F3F79BFC1DC55974002C3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F8B9FF75C9C78AE05488 /* ViewController.m */; };
+		56F3FAB9E96A46B00501E456 /* Project2StringValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F1D5C7C4022ABB3FBDBA /* Project2StringValues.m */; };
+		7F7E0FEF1BF6A07100157CB5 /* Project2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E0FEE1BF6A07100157CB5 /* Project2Tests.m */; };
+		7F7E0FFE1BF6A1E900157CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E0FFD1BF6A1E900157CB5 /* main.m */; };
+		7F7E10011BF6A1E900157CB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E10001BF6A1E900157CB5 /* AppDelegate.m */; };
+		7F7E10071BF6A1E900157CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7E10051BF6A1E900157CB5 /* Main.storyboard */; };
+		7F7E10091BF6A1E900157CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7E10081BF6A1E900157CB5 /* Assets.xcassets */; };
+		7F7E100C1BF6A1E900157CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7E100A1BF6A1E900157CB5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7F594AD01BF4D21E00D724F0 /* PBXContainerItemProxy */ = {
+		7F7E10111BF6A29600157CB5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7F594AAE1BF4D21E00D724F0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7F594AB51BF4D21E00D724F0;
-			remoteInfo = Project2;
+			remoteGlobalIDString = 7F7E0FF91BF6A1E900157CB5;
+			remoteInfo = Project2TestApp;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		7F594B201BF4D4A400D724F0 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		003978FF3226CD72235C9BD1 /* Pods-Project2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2Tests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2Tests/Pods-Project2Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,33 +34,32 @@
 		56E6E50379494B062395977D /* Pods-Project2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2Tests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2Tests/Pods-Project2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		56F3F1D5C7C4022ABB3FBDBA /* Project2StringValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project2StringValues.m; sourceTree = "<group>"; };
 		56F3F5A0B849A72AF0F91767 /* Project2StringValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project2StringValues.h; sourceTree = "<group>"; };
-		7F594AB61BF4D21E00D724F0 /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F594ABA1BF4D21E00D724F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F594ABC1BF4D21E00D724F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7F594ABD1BF4D21E00D724F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7F594ABF1BF4D21E00D724F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7F594AC01BF4D21E00D724F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7F594AC31BF4D21E00D724F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7F594AC51BF4D21E00D724F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7F594AC81BF4D21E00D724F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7F594ACA1BF4D21E00D724F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F594ACF1BF4D21E00D724F0 /* Project2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F594AD31BF4D21E00D724F0 /* Project2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project2Tests.m; sourceTree = "<group>"; };
-		7F594AD51BF4D21E00D724F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F3F8B9FF75C9C78AE05488 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56F3FC8AB6AF2B78B010F8F1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F7E0FEC1BF6A07100157CB5 /* Project2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7E0FEE1BF6A07100157CB5 /* Project2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project2Tests.m; sourceTree = "<group>"; };
+		7F7E0FF01BF6A07100157CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7E0FFA1BF6A1E900157CB5 /* Project2TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7E0FFD1BF6A1E900157CB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F7E0FFF1BF6A1E900157CB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F7E10001BF6A1E900157CB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F7E10061BF6A1E900157CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F7E10081BF6A1E900157CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F7E100B1BF6A1E900157CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F7E100D1BF6A1E900157CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCEC425B29744ACD9E88BFC3 /* libPods-Project2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F5EECEA4BD7A1CB6BD72EB /* libPods-Project2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7F594AB31BF4D21E00D724F0 /* Frameworks */ = {
+		7F7E0FE91BF6A07100157CB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1A462B0DDA8FEE4D379D9B /* libPods-Project2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F594ACC1BF4D21E00D724F0 /* Frameworks */ = {
+		7F7E0FF71BF6A1E900157CB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -107,8 +92,8 @@
 		7F594AAD1BF4D21E00D724F0 = {
 			isa = PBXGroup;
 			children = (
-				7F594AB81BF4D21E00D724F0 /* Project2 */,
-				7F594AD21BF4D21E00D724F0 /* Project2Tests */,
+				7F7E0FED1BF6A07100157CB5 /* Project2Tests */,
+				7F7E0FFB1BF6A1E900157CB5 /* Project2TestApp */,
 				7F594AB71BF4D21E00D724F0 /* Products */,
 				56F3F933AD83739A0CAC0FF1 /* Classes */,
 				2D7F2A28B225E5564358D6F5 /* Pods */,
@@ -119,43 +104,43 @@
 		7F594AB71BF4D21E00D724F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F594AB61BF4D21E00D724F0 /* Project2.app */,
-				7F594ACF1BF4D21E00D724F0 /* Project2Tests.xctest */,
+				7F7E0FEC1BF6A07100157CB5 /* Project2Tests.xctest */,
+				7F7E0FFA1BF6A1E900157CB5 /* Project2TestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F594AB81BF4D21E00D724F0 /* Project2 */ = {
+		7F7E0FED1BF6A07100157CB5 /* Project2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7F594ABC1BF4D21E00D724F0 /* AppDelegate.h */,
-				7F594ABD1BF4D21E00D724F0 /* AppDelegate.m */,
-				7F594ABF1BF4D21E00D724F0 /* ViewController.h */,
-				7F594AC01BF4D21E00D724F0 /* ViewController.m */,
-				7F594AC21BF4D21E00D724F0 /* Main.storyboard */,
-				7F594AC51BF4D21E00D724F0 /* Assets.xcassets */,
-				7F594AC71BF4D21E00D724F0 /* LaunchScreen.storyboard */,
-				7F594ACA1BF4D21E00D724F0 /* Info.plist */,
-				7F594AB91BF4D21E00D724F0 /* Supporting Files */,
-			);
-			path = Project2;
-			sourceTree = "<group>";
-		};
-		7F594AB91BF4D21E00D724F0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F594ABA1BF4D21E00D724F0 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7F594AD21BF4D21E00D724F0 /* Project2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7F594AD31BF4D21E00D724F0 /* Project2Tests.m */,
-				7F594AD51BF4D21E00D724F0 /* Info.plist */,
+				7F7E0FEE1BF6A07100157CB5 /* Project2Tests.m */,
+				7F7E0FF01BF6A07100157CB5 /* Info.plist */,
 			);
 			path = Project2Tests;
+			sourceTree = "<group>";
+		};
+		7F7E0FFB1BF6A1E900157CB5 /* Project2TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				7F7E0FFF1BF6A1E900157CB5 /* AppDelegate.h */,
+				7F7E10001BF6A1E900157CB5 /* AppDelegate.m */,
+				7F7E10051BF6A1E900157CB5 /* Main.storyboard */,
+				7F7E10081BF6A1E900157CB5 /* Assets.xcassets */,
+				7F7E100A1BF6A1E900157CB5 /* LaunchScreen.storyboard */,
+				7F7E100D1BF6A1E900157CB5 /* Info.plist */,
+				7F7E0FFC1BF6A1E900157CB5 /* Supporting Files */,
+				56F3FC8AB6AF2B78B010F8F1 /* ViewController.h */,
+				56F3F8B9FF75C9C78AE05488 /* ViewController.m */,
+			);
+			path = Project2TestApp;
+			sourceTree = "<group>";
+		};
+		7F7E0FFC1BF6A1E900157CB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F7E0FFD1BF6A1E900157CB5 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DD28B9328D2196AD2832D2B9 /* Frameworks */ = {
@@ -170,44 +155,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F594AB51BF4D21E00D724F0 /* Project2 */ = {
+		7F7E0FEB1BF6A07100157CB5 /* Project2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F594AD81BF4D21E00D724F0 /* Build configuration list for PBXNativeTarget "Project2" */;
+			buildConfigurationList = 7F7E0FF31BF6A07100157CB5 /* Build configuration list for PBXNativeTarget "Project2Tests" */;
 			buildPhases = (
-				C80469B297A3315F3EE4B9AE /* Check Pods Manifest.lock */,
-				7F594AB21BF4D21E00D724F0 /* Sources */,
-				7F594AB31BF4D21E00D724F0 /* Frameworks */,
-				7F594AB41BF4D21E00D724F0 /* Resources */,
-				7F594B201BF4D4A400D724F0 /* Embed Frameworks */,
-				D8874BE0AE462D9AFD2F75F4 /* Embed Pods Frameworks */,
-				98C293C34C4299E15511D23F /* Copy Pods Resources */,
+				7F7E0FE81BF6A07100157CB5 /* Sources */,
+				7F7E0FE91BF6A07100157CB5 /* Frameworks */,
+				7F7E0FEA1BF6A07100157CB5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = Project2;
-			productName = Project2;
-			productReference = 7F594AB61BF4D21E00D724F0 /* Project2.app */;
-			productType = "com.apple.product-type.application";
-		};
-		7F594ACE1BF4D21E00D724F0 /* Project2Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7F594ADB1BF4D21E00D724F0 /* Build configuration list for PBXNativeTarget "Project2Tests" */;
-			buildPhases = (
-				7F594ACB1BF4D21E00D724F0 /* Sources */,
-				7F594ACC1BF4D21E00D724F0 /* Frameworks */,
-				7F594ACD1BF4D21E00D724F0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7F594AD11BF4D21E00D724F0 /* PBXTargetDependency */,
+				7F7E10121BF6A29600157CB5 /* PBXTargetDependency */,
 			);
 			name = Project2Tests;
 			productName = Project2Tests;
-			productReference = 7F594ACF1BF4D21E00D724F0 /* Project2Tests.xctest */;
+			productReference = 7F7E0FEC1BF6A07100157CB5 /* Project2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F7E0FF91BF6A1E900157CB5 /* Project2TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7E100E1BF6A1E900157CB5 /* Build configuration list for PBXNativeTarget "Project2TestApp" */;
+			buildPhases = (
+				7F7E0FF61BF6A1E900157CB5 /* Sources */,
+				7F7E0FF71BF6A1E900157CB5 /* Frameworks */,
+				7F7E0FF81BF6A1E900157CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project2TestApp;
+			productName = Project2TestApp;
+			productReference = 7F7E0FFA1BF6A1E900157CB5 /* Project2TestApp.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -218,12 +199,12 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Hok Shun Poon";
 				TargetAttributes = {
-					7F594AB51BF4D21E00D724F0 = {
+					7F7E0FEB1BF6A07100157CB5 = {
 						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 7F7E0FF91BF6A1E900157CB5;
 					};
-					7F594ACE1BF4D21E00D724F0 = {
+					7F7E0FF91BF6A1E900157CB5 = {
 						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 7F594AB51BF4D21E00D724F0;
 					};
 				};
 			};
@@ -240,123 +221,75 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F594AB51BF4D21E00D724F0 /* Project2 */,
-				7F594ACE1BF4D21E00D724F0 /* Project2Tests */,
+				7F7E0FF91BF6A1E900157CB5 /* Project2TestApp */,
+				7F7E0FEB1BF6A07100157CB5 /* Project2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7F594AB41BF4D21E00D724F0 /* Resources */ = {
+		7F7E0FEA1BF6A07100157CB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F594AC91BF4D21E00D724F0 /* LaunchScreen.storyboard in Resources */,
-				7F594AC61BF4D21E00D724F0 /* Assets.xcassets in Resources */,
-				7F594AC41BF4D21E00D724F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F594ACD1BF4D21E00D724F0 /* Resources */ = {
+		7F7E0FF81BF6A1E900157CB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7E100C1BF6A1E900157CB5 /* LaunchScreen.storyboard in Resources */,
+				7F7E10091BF6A1E900157CB5 /* Assets.xcassets in Resources */,
+				7F7E10071BF6A1E900157CB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		98C293C34C4299E15511D23F /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Project2/Pods-Project2-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C80469B297A3315F3EE4B9AE /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D8874BE0AE462D9AFD2F75F4 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Project2/Pods-Project2-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		7F594AB21BF4D21E00D724F0 /* Sources */ = {
+		7F7E0FE81BF6A07100157CB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F594AC11BF4D21E00D724F0 /* ViewController.m in Sources */,
-				7F594ABE1BF4D21E00D724F0 /* AppDelegate.m in Sources */,
-				7F594ABB1BF4D21E00D724F0 /* main.m in Sources */,
-				56F3F043DBD3A8038218A1DB /* Project2StringValues.m in Sources */,
+				7F7E0FEF1BF6A07100157CB5 /* Project2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F594ACB1BF4D21E00D724F0 /* Sources */ = {
+		7F7E0FF61BF6A1E900157CB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F594AD41BF4D21E00D724F0 /* Project2Tests.m in Sources */,
+				7F7E10011BF6A1E900157CB5 /* AppDelegate.m in Sources */,
+				7F7E0FFE1BF6A1E900157CB5 /* main.m in Sources */,
+				56F3F79BFC1DC55974002C3F /* ViewController.m in Sources */,
+				56F3FAB9E96A46B00501E456 /* Project2StringValues.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7F594AD11BF4D21E00D724F0 /* PBXTargetDependency */ = {
+		7F7E10121BF6A29600157CB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F594AB51BF4D21E00D724F0 /* Project2 */;
-			targetProxy = 7F594AD01BF4D21E00D724F0 /* PBXContainerItemProxy */;
+			target = 7F7E0FF91BF6A1E900157CB5 /* Project2TestApp */;
+			targetProxy = 7F7E10111BF6A29600157CB5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7F594AC21BF4D21E00D724F0 /* Main.storyboard */ = {
+		7F7E10051BF6A1E900157CB5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7F594AC31BF4D21E00D724F0 /* Base */,
+				7F7E10061BF6A1E900157CB5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7F594AC71BF4D21E00D724F0 /* LaunchScreen.storyboard */ = {
+		7F7E100A1BF6A1E900157CB5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7F594AC81BF4D21E00D724F0 /* Base */,
+				7F7E100B1BF6A1E900157CB5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -446,51 +379,49 @@
 			};
 			name = Release;
 		};
-		7F594AD91BF4D21E00D724F0 /* Debug */ = {
+		7F7E0FF41BF6A07100157CB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A135BA67B8A3B4846AB7896 /* Pods-Project2.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Project2/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeeatsee.Project2;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Project2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeeatsee.Project2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project2TestApp.app/Project2TestApp";
 			};
 			name = Debug;
 		};
-		7F594ADA1BF4D21E00D724F0 /* Release */ = {
+		7F7E0FF51BF6A07100157CB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D612EE105A4CF738A6CFCC5 /* Pods-Project2.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Project2/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeeatsee.Project2;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Project2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeeatsee.Project2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project2TestApp.app/Project2TestApp";
 			};
 			name = Release;
 		};
-		7F594ADC1BF4D21E00D724F0 /* Debug */ = {
+		7F7E100F1BF6A1E900157CB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = Project2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeeatsee.Project2Tests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Project2TestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeeatsee.Project2TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project2.app/Project2";
 			};
 			name = Debug;
 		};
-		7F594ADD1BF4D21E00D724F0 /* Release */ = {
+		7F7E10101BF6A1E900157CB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = Project2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeeatsee.Project2Tests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Project2TestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeeatsee.Project2TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project2.app/Project2";
 			};
 			name = Release;
 		};
@@ -506,20 +437,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F594AD81BF4D21E00D724F0 /* Build configuration list for PBXNativeTarget "Project2" */ = {
+		7F7E0FF31BF6A07100157CB5 /* Build configuration list for PBXNativeTarget "Project2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F594AD91BF4D21E00D724F0 /* Debug */,
-				7F594ADA1BF4D21E00D724F0 /* Release */,
+				7F7E0FF41BF6A07100157CB5 /* Debug */,
+				7F7E0FF51BF6A07100157CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F594ADB1BF4D21E00D724F0 /* Build configuration list for PBXNativeTarget "Project2Tests" */ = {
+		7F7E100E1BF6A1E900157CB5 /* Build configuration list for PBXNativeTarget "Project2TestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F594ADC1BF4D21E00D724F0 /* Debug */,
-				7F594ADD1BF4D21E00D724F0 /* Release */,
+				7F7E100F1BF6A1E900157CB5 /* Debug */,
+				7F7E10101BF6A1E900157CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
