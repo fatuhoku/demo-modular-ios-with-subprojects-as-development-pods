@@ -20,7 +20,7 @@
     [super viewDidLoad];
 
     NSAttributedString *attributedString = [Project2StringValues helloWorldValue];
-    NSLog(@"Root project is displaying: '%@'", [Project1StringFunctions stringByCapitalizingString:attributedString.string]);
+    NSLog(@"Root project is displaying: '%@'", [Project1StringFunctions stringByUppercasingStringAndSuffixingWithAnswerToLifeTheUniverseAndEverything:attributedString.string]);
     
     self.label.attributedText = attributedString;
 }

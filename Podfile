@@ -8,12 +8,18 @@ xcodeproj 'RootProject/RootProject.xcodeproj'
 
 ### Projects
 
+def foundation
+  pod 'FoundationProject', :path => './FoundationProject'
+end
+
 def project1
   pod 'Project1', :path => './Project1'
+  foundation
 end
 
 def project2
   pod 'Project2', :path => './Project2'
+  foundation
 end
 
 ### Targets
@@ -22,6 +28,11 @@ target :RootProject, :exclusive => true do
     xcodeproj 'RootProject/RootProject.xcodeproj'
     project1
     project2
+end
+
+target :Project1, :exclusive => true do
+    xcodeproj 'Project1/Project1.xcodeproj'
+    project1
 end
 
 target :Project2TestApp, :exclusive => true do

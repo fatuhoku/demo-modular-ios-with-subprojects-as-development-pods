@@ -26,7 +26,7 @@
 }
 
 - (void)testStringByCapitalizingString {
-    XCTAssertEqualObjects([Project1StringFunctions stringByCapitalizingString:@"hello world"], @"HELLO WORLD");
+    XCTAssertEqualObjects([Project1StringFunctions stringByUppercasingStringAndSuffixingWithAnswerToLifeTheUniverseAndEverything:@"hello world"], @"HELLO WORLD42");
 }
 
 @end

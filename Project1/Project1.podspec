@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.ios.xcconfig = {'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) MODULENAME=1'};
 
   s.frameworks = 'UIKit'
+  s.dependency 'FoundationProject'
   s.dependency 'BOString'
 end

@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface Project1StringFunctions : NSObject
-+ (NSString *)stringByCapitalizingString:(NSString *)string;
++ (NSString *)stringByUppercasingStringAndSuffixingWithAnswerToLifeTheUniverseAndEverything:(NSString *)string;
 @end

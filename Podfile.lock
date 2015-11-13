@@ -1,15 +1,20 @@
 PODS:
   - BOString (0.0.9)
+  - FoundationProject (0.1.0)
   - Project1 (0.1.0):
     - BOString
+    - FoundationProject
   - Project2 (0.1.0):
     - BOString
 
 DEPENDENCIES:
+  - FoundationProject (from `./FoundationProject`)
   - Project1 (from `./Project1`)
   - Project2 (from `./Project2`)
 
 EXTERNAL SOURCES:
+  FoundationProject:
+    :path: ./FoundationProject
   Project1:
     :path: ./Project1
   Project2:
@@ -17,7 +22,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BOString: c896f83b514996bbe874c0a3afd61f4c6764e0ed
-  Project1: b96e152245d1fd2028b39523fcb0750d5eee629d
+  FoundationProject: c49dfaaf902da0706b2e450c2a6305be824f8a4f
+  Project1: b09471e135d5f52a17fd741eeb4ba1f1b868957a
   Project2: 9ef19505a48e3061faedac357da3c85205085c02
 
 COCOAPODS: 0.39.0

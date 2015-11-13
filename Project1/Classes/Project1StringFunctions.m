@@ -7,11 +7,12 @@
 //
 
 #import "Project1StringFunctions.h"
+#import <FoundationProject/GroundTruths.h>
 
 @implementation Project1StringFunctions
 
-+ (NSString *)stringByCapitalizingString:(NSString *)string {
-    return [string uppercaseString];
++ (NSString *)stringByUppercasingStringAndSuffixingWithAnswerToLifeTheUniverseAndEverything:(NSString *)string {
+    return [NSString stringWithFormat:@"%@ %@", [string uppercaseString], @([GroundTruths answerToLifeTheUniverseAndEverything])];
 }
 
 @end
