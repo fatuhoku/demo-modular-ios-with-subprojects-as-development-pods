@@ -1,4 +1,5 @@
-# Project2 is intended to be used as a Development pod.
+# Project2 is intended to be used as a Development pod as a part of a larger project.
+
 Pod::Spec.new do |s|
   s.name             = "Project2"
   s.version          = "0.1.0"
