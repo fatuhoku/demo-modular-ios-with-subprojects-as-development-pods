@@ -36,8 +36,6 @@ target :Project1, :exclusive => true do
 end
 
 target :Project2TestApp, :exclusive => true do
-    # This really feeds the test application its own dogfood.
-    # The unit tests gets access to all of these source files too.
     xcodeproj 'Project2/Project2.xcodeproj'
     project2
 end
