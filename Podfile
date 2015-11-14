@@ -12,6 +12,10 @@ def foundation
   pod 'FoundationProject', :path => './FoundationProject'
 end
 
+def foundation
+  pod 'FoundationProject', :path => './FoundationProject'
+end
+
 def project1
   pod 'Project1', :path => './Project1'
   foundation
