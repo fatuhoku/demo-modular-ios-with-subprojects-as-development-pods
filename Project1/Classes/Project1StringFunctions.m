@@ -12,7 +12,7 @@
 @implementation Project1StringFunctions
 
 + (NSString *)stringByUppercasingStringAndSuffixingWithAnswerToLifeTheUniverseAndEverything:(NSString *)string {
-    return [NSString stringWithFormat:@"%@ %@", [string uppercaseString], @([GroundTruths answerToLifeTheUniverseAndEverything])];
+    return [NSString stringWithFormat:@"%@%@", [string uppercaseString], @([GroundTruths answerToLifeTheUniverseAndEverything])];
 }
 
 @end
