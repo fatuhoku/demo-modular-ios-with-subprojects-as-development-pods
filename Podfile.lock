@@ -1,16 +1,20 @@
 PODS:
   - BOString (0.0.9)
   - FoundationProject (0.1.0)
+  - Nimble (3.0.0)
   - Project1 (0.1.0):
     - BOString
     - FoundationProject
   - Project2 (0.1.0):
     - BOString
+  - Quick (0.8.0)
 
 DEPENDENCIES:
   - FoundationProject (from `./FoundationProject`)
+  - Nimble
   - Project1 (from `./Project1`)
   - Project2 (from `./Project2`)
+  - Quick
 
 EXTERNAL SOURCES:
   FoundationProject:
@@ -23,7 +27,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   BOString: c896f83b514996bbe874c0a3afd61f4c6764e0ed
   FoundationProject: c49dfaaf902da0706b2e450c2a6305be824f8a4f
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
   Project1: b09471e135d5f52a17fd741eeb4ba1f1b868957a
   Project2: 9ef19505a48e3061faedac357da3c85205085c02
+  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
 
 COCOAPODS: 0.39.0

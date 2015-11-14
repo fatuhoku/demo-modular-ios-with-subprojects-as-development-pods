@@ -8,6 +8,11 @@ xcodeproj 'RootProject/RootProject.xcodeproj'
 
 ### Projects
 
+def testing_pods
+  pod 'Quick'
+  pod 'Nimble'
+end
+
 def foundation
   pod 'FoundationProject', :path => './FoundationProject'
 end
@@ -42,4 +47,9 @@ end
 target :Project2TestApp, :exclusive => true do
     xcodeproj 'Project2/Project2.xcodeproj'
     project2
+end
+
+target :Project2Tests, :exclusive => true do
+  xcodeproj 'Project2/Project2.xcodeproj'
+  testing_pods
 end
